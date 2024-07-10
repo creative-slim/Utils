@@ -5027,6 +5027,8 @@
     }
     const scrollToTopButton = document.querySelector('[data-btn="btt"]');
     scrollToTopButton.addEventListener("click", ScrollToTop);
+
+    ScrollToTop();
   });
 })();
 /*! Bundled license information:
