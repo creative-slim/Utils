@@ -4965,7 +4965,7 @@
           isScrollSectionVisible && indexInsideBounds(currentIndex + 1) && !animating ? navigateSection(1) : null;
         },
         tolerance: 0,
-        wheelSpeed: -1,
+        //wheelSpeed: -1,
         preventDefault
       });
     }
